@@ -1,10 +1,7 @@
 # **RiverMetrics** - Qgis Processing
 
 ## Hydromorphological River Metrics Measurements 
-[![RM2.png](https://i.postimg.cc/RCRXWHbm/RM2.png)](https://postimg.cc/jCDz9Lb3)
-[![RM1.png](https://i.postimg.cc/NFp4S3rF/RM1.png)](https://postimg.cc/2LLhBXGN)
-
-
+[![RM logo con ombra](other/icons&logos/RM2.png)](other/icons&logos/RM2.png)
 
 A set of tools for extracting river metrics useful for identifying the hydro-morphological characteristics and analysing the geomorphological evolution over time of a watercourse.
 It is developed in [Python-3 environment] (www.python.org) and is compatible with QGIS 3.22 and later.
