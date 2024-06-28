@@ -13,3 +13,12 @@ The [RiverMetrics plugin](https://github.com/pierluigiderosa/RiverMetrics.git) i
 The QGIS RiverMetrics processing tools can be found here.
 
 ---
+## QGIS processing tools
+
+The tools have been placed in a group called RM Hydromorphological Analysis. The set consists of tree tools, two of which are subdivided into two parts. Complexly there are five Qgis models, listed below:
+
+* Braiding-width 1: measure;
+* Braiding-width 2: reaches mean values;
+* River axis extraction;
+* Valley confinement index 1: input data preparation
+* Valley confinement index 2: calculation.
