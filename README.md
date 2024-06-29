@@ -29,9 +29,13 @@ Once you have downloaded and unzipped the zip project file (green code button at
 ### Copyng the _.model3_ files in the Processing configuration folder 
 The user profile configuration folders are directly accessible from the QGIS interface via the command bar: _Settings/User Profiles/Open Active User Profile_.
 
+[![aprire cartella del profilo](other/images/installazione.jpg)](other/images/installazione.jpg)
+
 The models are located in the project's _"models"_ folder. They have a _**.model3**_ extension. 
 After copying the models files to the 
 `.../user/processing/models` folder, you will need to restart the software and the tools will be listed in the Processing panel.
 
 ### Adding using the Processing button
 Alternatively, the models can be added one by one to the Processing Panel using the button at the top left.
+
+[![aprire cartella del profilo](other/images/pulsante_processing.jpg)](other/images/pulsante_processing.jpg)
