@@ -27,7 +27,7 @@ The tools have been grouped into a set called RM Hydromorphological Analysis. Th
 Once you have downloaded and unzipped the zip project file (green code button at the top right of the page) there are two easy ways to import the models into QGIS.
 
 ### Copyng the _.model3_ files in the Processing configuration folder 
-The user profile configuration folders are directly accessible from the QGIS interface via the command bar: _Settings/User Profiles/Open Active User Profile_.
+The user profile configuration folders are directly accessible from the QGIS interface via the command bar: _Settings/User Profiles/Open Active Profile Folder_.
 
 [![aprire cartella del profilo](other/images/installazione.jpg)](other/images/installazione.jpg)
 
