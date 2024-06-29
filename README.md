@@ -36,6 +36,6 @@ After copying the models files to the
 `.../user/processing/models` folder, you will need to restart the software and the tools will be listed in the Processing panel.
 
 ### Adding using the Processing button
-Alternatively, the models can be added one by one to the Processing Panel using the button at the top left.
+Alternatively, the models can be added one by one to the Processing Toolbox using the button at the top left.
 
 [![aprire cartella del profilo](other/images/pulsante_processing.jpg)](other/images/pulsante_processing.jpg)
