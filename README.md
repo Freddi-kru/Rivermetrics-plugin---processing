@@ -1,7 +1,7 @@
 # **RiverMetrics** - Qgis Processing
 
 ## Hydromorphological River Metrics Measurements 
-[![RM logo con ombra](other/icons&logos/RM2.png)](other/icons&logos/RM2.png)
+![RM logo con ombra](other/icons&logos/RM2.png)
 
 A set of tools for extracting river metrics useful for identifying the hydro-morphological characteristics and analysing the geomorphological evolution over time of a river.    
 It is developed in [Python-3 environment](www.python.org) and is compatible with QGIS 3.22 and later.
@@ -30,7 +30,7 @@ Once you have downloaded and unzipped the zip project file (green code button at
 ### Copyng the _.model3_ files in the Processing configuration folder 
 The user profile configuration folders are directly accessible from the QGIS interface via the command bar: _Settings/User Profiles/Open Active Profile Folder_.
 
-[![aprire cartella del profilo](other/images/installazione.jpg)](other/images/installazione.jpg)
+![aprire cartella del profilo](other/images/installazione.jpg)
 
 The models are located in the project's _"models"_ folder. They have a _**.model3**_ extension. 
 After copying the models files to the 
@@ -39,4 +39,4 @@ After copying the models files to the
 ### Adding using the Processing button
 Alternatively, the models can be added one by one to the Processing Toolbox using the button at the top left.
 
-[![processing toolbox button](other/images/pulsante_processing.jpg)](other/images/pulsante_processing.jpg)
+![processing toolbox button](other/images/pulsante_processing.jpg)
