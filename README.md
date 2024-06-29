@@ -31,7 +31,7 @@ The user profile configuration folders are directly accessible from the QGIS int
 
 The models are located in the project's _"models"_ folder. They have a _**.model3**_ extension. 
 After copying the models files to the 
-`.../processing/models` folder, you will need to restart the software and the tools will be listed in the Processing panel.
+`.../user/processing/models` folder, you will need to restart the software and the tools will be listed in the Processing panel.
 
 ### Adding using the Processing button
 Alternatively, the models can be added one by one to the Processing Panel using the button at the top left.
