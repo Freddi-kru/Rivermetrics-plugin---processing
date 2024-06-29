@@ -38,4 +38,4 @@ After copying the models files to the
 ### Adding using the Processing button
 Alternatively, the models can be added one by one to the Processing Toolbox using the button at the top left.
 
-[![aprire cartella del profilo](other/images/pulsante_processing.jpg)](other/images/pulsante_processing.jpg)
+[![processing toolbox button](other/images/pulsante_processing.jpg)](other/images/pulsante_processing.jpg)
