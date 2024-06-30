@@ -18,9 +18,9 @@ The plugin is divided into two parts: the first part is an experimental plugin w
 
 The tools have been grouped into a set called **RM Hydromorphological Analysis**. The set consists of three tools, two of which are split into two parts. There are five QGIS models listed below:
 
+* River axis extraction;
 * Braiding-width 1: measure;
 * Braiding-width 2: reaches mean values;
-* River axis extraction;
 * Valley confinement index 1: input data preparation
 * Valley confinement index 2: calculation.
 ---
@@ -34,9 +34,9 @@ The user profile configuration folders are directly accessible from the QGIS int
 
 The models are located in the **project's _"models"_ folder**. They have a _**.model3**_ extension. 
 After copying the models files to the 
-`.../user/processing/models` folder, you will need to restart the software and the tools will be listed in the Processing panel.
+`.../user/processing/models` folder, you will need to restart the software and the tools will be listed in the Processing Toolbox.
 
-### Adding using the Processing button
+### Adding using the Processing Toolbox button
 Alternatively, the models can be added one by one to the Processing Toolbox using the button at the top left.
 
 ![processing toolbox button](other/images/pulsante_processing.jpg)
