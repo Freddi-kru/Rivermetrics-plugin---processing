@@ -9,7 +9,7 @@ It is developed in [Python-3 environment](www.python.org) and is compatible with
 The plugin is divided into two parts: the first part is an experimental plugin with a dock in the main QGIS interface, while the second part is a set of tools integrated into QGIS processing.
 
 > [!Note]
-> The [RiverMetrics plugin](https://github.com/pierluigiderosa/RiverMetrics.git) is in the official QGIS repository (experimental flag) and can be easily installed using the standard procedure. 
+> The [RiverMetrics plugin](https://github.com/pierluigiderosa/RiverMetrics.git) is in the official QGIS repository (experimental flag) and can be easily installed using the standard procedure, via the **Plugin Manager**. 
 
  The QGIS RiverMetrics processing tools can be found here.
 
@@ -57,8 +57,24 @@ The first operation performed by the model is to eliminate from the polygon of t
 The axis is obtained by a process of "skeletonisation" of the polygon using the GRASS gis _**v.voronoi**[^1]_ tool present in the Processing Toolbox.
 [^1]: https://grass.osgeo.org/grass83/manuals/v.voronoi.html
 
-As the line obtained may be excessively fragmented, a simplification is carried out to remove nodes that are closer than a threshold (Sistem Reference units) defined by the operator. The default value is 1.
+As the line obtained may be excessively fragmented, a simplification is carried out to remove nodes that are closer than a threshold (Sistem Reference units) defined by the user. The default value is 1.
 
-As the resulting line may be split into several parts, the initial vertices of the lines are extracted to facilitate identification of the different parts. These must then be **manually joined together** by the operator ("editing" mode) to obtain a **single line** of a **"single part"** layer.
+As the resulting line may be split into several parts, the initial vertices of the lines are extracted to facilitate identification of the different parts. For use as input to the **Rivermetrics plugin** and the **Braiding-Width1 model**, these line segments must then be **manually joined together** by the user (editing operation) to obtain a **single line** of a **single part** layer.
+
 
 ![scheme of main morphological units ](other/images/unita_morfologiche.jpeg)
+
+### Input/Output data
+
+| Input parameter | Type | Description |
+| --- | --- | --- |
+| Effective bankfull stage riverbed | Single polygon layer| Bankfull riverbed polygon. Holes (islands) are allowed and will be removed. The attribute table does not require any additional information other than the feature ID |
+| Minimum area for hole removale | User input (system reference untis<sup>2</sup> - e.g. _m<sup>2</sup>_) | Threshold (maximum area) for hole removal. Too high values can cause the polygon to collapse and should be based on the larger hole/island area. Set to 5000 by default|
+| Tolerance for axis semplification | User input (system reference untis - e.g. _m_) | Threshold for axis line semplyfication. Represent the distance below which nodes that are too close are removed. Set to 1 by default |
+
+| Output data | Type | Description |
+| --- | --- | --- |
+| River axis | Single line layer | Linear vector of the river bed axis. For use as input to the **Rivermetrics plugin** and the **Braiding-Width1 model**, several line sections, if present, may need to be successively joined together by the user (editing operation) |
+| Non-simplified axis | Single line layer |  Raw axis line. It can be excessively fragmented  (_v.voronoi_ output) |
+| Initial vertices | Points layer | Initial vertices of the axis line parts, if split. Created to help locate the different parts of the axis line |
+| Bankfull riverbed | Single polygon layer | Bankfull riverbed without holes/islands. It is the result of the hole removal process |
