@@ -48,15 +48,17 @@ The riverbed axis is an input to both the RiverMetrics plugin and the _**Braidin
 ### Concepts of river geomorphology
 In geomorphology, the axis of the riverbed is defined as the median line formed by the points at the same distance from the banks. The axis is determined from the polygon of the bankfull riverbed.
 
-The bankfull riverbed can be identified from remotely sensed imagery and includes the channel(s) and the active (bare or sparsely vegetated) bars. The banks separate it from the floodplain and form its boundary. Also excluded are bars with tree vegetation, which are not considered active because they do not participate in sediment transport (bed load).
+The bankfull riverbed can be identified from remotely sensed imagery and includes the channel(s) and the active (bare or sparsely vegetated) bars. The banks separate it from the floodplain and form its boundary. Also excluded are bars with tree vegetation, which are not considered active because they do not participate in bed load transport (Fig.1).
 
 ### Model operation
 
-The first operation performed by the model is to eliminate from the polygon of the bankfull riverbed the holes caused by the presence of longitudinal tree bars, known as 'islands'. This requires a threshold (maximum area - SR units<sup>2</sup>), which is set to 5000 by default.
+The first operation performed by the model is to eliminate from the polygon of the bankfull riverbed the holes caused by the presence of longitudinal tree-covered bars, known as 'islands'. This requires a threshold (maximum area - Siste Reference units<sup>2</sup>), which is set to 5000 by default.
 
 The axis is obtained by a process of "skeletonisation" of the polygon using the GRASS gis _**v.voronoi**_[^1] tool present in the Processing Toolbox.
 [^1]: https://grass.osgeo.org/grass83/manuals/v.voronoi.html
 
-As the line obtained may be excessively fragmented, a simplification is carried out to remove nodes that are closer than a threshold (SR units) defined by the operator. The default value is 1.
+As the line obtained may be excessively fragmented, a simplification is carried out to remove nodes that are closer than a threshold (Sistem Reference units) defined by the operator. The default value is 1.
 
-As the resulting line may be split into several parts, the initial vertices of the lines are extracted to facilitate identification of the different parts. These must then be **manually joined together** by the operator (" editing" mode) to obtain a **single line** of a **"single part"** layer.
+As the resulting line may be split into several parts, the initial vertices of the lines are extracted to facilitate identification of the different parts. These must then be **manually joined together** by the operator ("editing" mode) to obtain a **single line** of a **"single part"** layer.
+
+![scheme of main morphological units ](other/images/unita_morfologiche.jpeg)
