@@ -75,7 +75,7 @@ As the resulting line may be split into several parts, the initial vertices of t
 
 | Output data | Type | Description |
 | --- | --- | --- |
-| River axis | Single line layer | Linear vector of the river bed axis. For use as input to the **Rivermetrics plugin** and the **Braiding-Width1 model**, several line sections, if present, may need to be successively joined together by the user (editing operation) |
+| River axis | Single line layer | Linear vector of the river bed axis. For use as input to the **Rivermetrics plugin** and the **Braiding-Width1 model**, several line segments, if present, may need to be successively joined together by the user (editing operation) |
 | Non-simplified axis | Single line layer |  Raw axis line. It can be excessively fragmented  (_v.voronoi_ output) |
 | Initial vertices | Points layer | Initial vertices of the axis line parts, if split. Created to help locate the different parts of the axis line |
 | Bankfull riverbed | Single polygon layer | Bankfull riverbed without holes/islands. It is the result of the hole removal process |
