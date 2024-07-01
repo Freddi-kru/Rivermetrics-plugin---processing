@@ -69,7 +69,7 @@ As the resulting line may be split into several parts, the initial vertices of t
 | Input parameter | Type | Description |
 | --- | --- | --- |
 | Effective bankfull stage riverbed | Single polygon layer| Bankfull riverbed polygon. Holes (islands) are allowed and will be removed. The attribute table does not require any additional information other than the feature ID |
-| Minimum area for hole removale | User input (system reference untis<sup>2</sup> - e.g. _m<sup>2</sup>_) | Threshold (maximum area) for hole removal. Too high values can cause the polygon to collapse and should be based on the larger hole/island area. Set to 5000 by default|
+| Minimum area for hole removale | User input (system reference untis<sup>2</sup> - e.g. _m<sup>2</sup>_) | Threshold (maximum area) for removing holes. Too high values can cause the polygon to collapse and should be avoided. The value should be based on the larger area of the hole/island. Set to 5000 by default.|
 | Tolerance for axis semplification | User input (system reference untis - e.g. _m_) | Threshold for axis line semplyfication. Represent the distance below which nodes that are too close are removed. Set to 1 by default |
 
 | Output data | Type | Description |
