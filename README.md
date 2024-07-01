@@ -19,8 +19,8 @@ The plugin is divided into two parts: the first part is an experimental plugin w
 The tools have been grouped into a set called **RM Hydromorphological Analysis**. The set consists of three tools, two of which are split into two parts. There are five QGIS models listed below:
 
 * [River axis extraction;](https://github.com/Freddi-kru/Rivermetrics-plugin---processing/blob/main/README.md#river-axis-extraction)
-* Braiding-width 1: measure;
-* Braiding-width 2: reaches mean values;
+* Braiding-Width 1: measure;
+* Braiding-Width 2: reaches mean values;
 * Valley confinement index 1: input data preparation
 * Valley confinement index 2: calculation.
 ---
