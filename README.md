@@ -52,7 +52,7 @@ The bankfull riverbed can be identified from remotely sensed imagery and include
 
 ### Model operation
 
-The first operation performed by the model is to eliminate from the polygon of the bankfull riverbed the holes caused by the presence of longitudinal tree-covered bars, known as 'islands'. This requires a threshold (maximum area - Siste Reference units<sup>2</sup>), which is set to 5000 by default.
+The first operation performed by the model is to eliminate from the polygon of the bankfull riverbed the holes caused by the presence of longitudinal tree-covered bars, known as 'islands'. This requires a threshold (maximum area - Sistem Reference units<sup>2</sup>), which is set to 5000 by default.
 
 The axis is obtained by a process of "skeletonisation" of the polygon using the GRASS gis _**v.voronoi**_[^1] tool present in the Processing Toolbox.
 [^1]: https://grass.osgeo.org/grass83/manuals/v.voronoi.html
