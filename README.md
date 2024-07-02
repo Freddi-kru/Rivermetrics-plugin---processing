@@ -25,7 +25,7 @@ The tools have been grouped into a set called **Hydromorphological Analysis**. T
 * Valley confinement index 2: calculation.
 ---
 ## How to install into the **QGIS processing panel**
-Once you have downloaded and unzipped the **zip project file** (green code button at the top right of the page) there are two easy ways to import the models into QGIS.
+Once you have downloaded and unzipped the **zip project file** ([here is an howto](https://docs.github.com/en/get-started/start-your-journey/downloading-files-from-github#downloading-a-repositorys-files)) there are two easy ways to import the models into QGIS.
 
 ### Copy the _.model3_ files in the Processing configuration folder 
 The user profile configuration folders are directly accessible from the QGIS interface via the command bar: _Settings/User Profiles/Open Active Profile Folder_.
