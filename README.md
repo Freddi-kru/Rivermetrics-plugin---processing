@@ -69,13 +69,13 @@ As the resulting line may be split into several parts, the initial vertices of t
 
 | Input parameter | Type | Description |
 | --- | --- | --- |
-| Effective bankfull stage riverbed | Single polygon layer| Bankfull riverbed polygon. Holes (islands) are allowed and will be removed. The attribute table does not require any additional information other than the feature ID |
+| Effective bankfull stage riverbed | Polygon vector (singleparts)| Bankfull riverbed polygon. Holes (islands) are allowed and will be removed. The attribute table does not require any additional information other than the feature ID |
 | Minimum area for hole removale | User input (system reference units<sup>2</sup> - e.g. _m<sup>2</sup>_) | Threshold (maximum area) for removing holes. Too high values can cause the polygon to collapse and should be avoided. The value should be based on the larger hole/island. Set to 5000 by default.|
 | Tolerance for axis semplification | User input (system reference units - e.g. _m_) | Threshold for axis line semplyfication. Represent the distance below which nodes that are too close are removed. Set to 1 by default |
 
 | Output data | Type | Description |
 | --- | --- | --- |
-| River axis | Single line layer | Linear vector of the river bed axis. For use as input to the **Rivermetrics plugin** and the **Braiding-Width1 model**, several line segments, if present, may need to be successively joined together by the user (editing operation) |
-| Non-simplified axis | Single line layer |  Raw axis line. It can be excessively fragmented  (_v.voronoi_ output) |
-| Initial vertices | Points layer | Initial vertices of the axis line parts, if split. Created to help locate the different parts of the axis line |
-| Bankfull riverbed | Single polygon layer | Bankfull riverbed without holes/islands. It is the result of the hole removal process |
+| River axis | LineString vector (singleparts)| Linear vector of the river bed axis. For use as input to the **Rivermetrics plugin** and the **Braiding-Width1 model**, several line segments, if present, may need to be successively joined together by the user (editing operation) |
+| Non-simplified axis | LineString vector (singleparts) |  Raw axis line. It can be excessively fragmented  (_v.voronoi_ output) |
+| Initial vertices | Point vector | Initial vertices of the axis line parts, if split. Created to help locate the different parts of the axis line |
+| Bankfull riverbed | Polygon vector (singleparts) | Bankfull riverbed without holes/islands. It is the result of the hole removal process |
