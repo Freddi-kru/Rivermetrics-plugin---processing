@@ -50,7 +50,7 @@ In geomorphology, the axis of the riverbed is defined as the median line formed 
 
 The bankfull riverbed can be identified from remotely sensed imagery and includes the channel(s) and the active (bare or sparsely vegetated) bars. The banks separate it from the floodplain and form its boundary. Also excluded are bars with tree vegetation, which are not considered active because they do not participate in bed load transport (Fig.1).
 
-### Model operation
+### 🔆 Model operation
 
 The first operation performed by the model is to eliminate from the polygon of the bankfull riverbed the holes caused by the presence of longitudinal tree-covered bars, known as 'islands'. This requires a threshold (maximum area - Sistem Reference units<sup>2</sup>), which is set to 5000 by default.
 
@@ -65,7 +65,7 @@ As the resulting line may be split into several parts, the initial vertices of t
 ![scheme of main morphological units ](other/images/unita_morfologiche.jpeg)
 <!-- La figura è stata fatta con il file POA-abdac/chiascio_51-52.qgz, ho provato anche un SVG che funziona con qualche accorgimento (rettangoli bianchi a coprire i vettoriali). Sembra lento a renderizzare perciò ho ricollegato una JPG -->
 
-### Input/Output data
+### 🔄 Input/Output data
 
 | Input parameter | Type | Description |
 | --- | --- | --- |
