@@ -14,7 +14,7 @@ The plugin is divided into two parts: the first part is an experimental plugin w
  The QGIS RiverMetrics processing tools can be found here.
 
 ---
-## QGIS processing tools
+## :gear: QGIS processing tools
 
 The tools have been grouped into a set called **Hydromorphological Analysis**. The set consists of three tools, two of which are split into two parts. There are five QGIS models listed below:
 
@@ -24,10 +24,10 @@ The tools have been grouped into a set called **Hydromorphological Analysis**. T
 * Valley confinement index 1 (input data preparation)
 * Valley confinement index 2 (calculation).
 ---
-## How to install into the **QGIS processing panel**
+## :brain: How to install into the **QGIS processing panel**
 Once you have downloaded and unzipped the **zip project file** ([here is an howto](https://docs.github.com/en/get-started/start-your-journey/downloading-files-from-github#downloading-a-repositorys-files)) there are two easy ways to import the models into QGIS.
 
-### Copy the _.model3_ files in the Processing configuration folder 
+### 📂 Copy the _.model3_ files in the Processing configuration folder 
 The user profile configuration folders are directly accessible from the QGIS interface via the command bar: _Settings/User Profiles/Open Active Profile Folder_.
 
 ![aprire cartella del profilo](other/images/installazione.jpg)
@@ -36,7 +36,7 @@ The models are located in the **project's _"models"_ folder**. They have a _**.m
 After copying the models files to the 
 `.../user/processing/models` folder, you will need to restart the software and the tools will be listed in the Processing Toolbox.
 
-### Adding using the Processing Toolbox button
+### :toolbox: Adding using the Processing Toolbox button
 Alternatively, the models can be added one by one to the Processing Toolbox using the button at the top left.
 
 ![processing toolbox button](other/images/pulsante_processing.jpg)
@@ -45,7 +45,7 @@ Alternatively, the models can be added one by one to the Processing Toolbox usin
 ## River Axis Extraction
 The riverbed axis is an input to both the RiverMetrics plugin and the _**Braiding-Width 1: measure**_ model.
 
-### Concepts of river geomorphology
+### :mountain: Concepts of river geomorphology
 In geomorphology, the axis of the riverbed is defined as the median line formed by the points at the same distance from the banks. The axis is determined from the polygon of the bankfull riverbed.
 
 The bankfull riverbed can be identified from remotely sensed imagery and includes the channel(s) and the active (bare or sparsely vegetated) bars. The banks separate it from the floodplain and form its boundary. Also excluded are bars with tree vegetation, which are not considered active because they do not participate in bed load transport (Fig.1).
