@@ -24,7 +24,7 @@ The tools have been grouped into a set called **Hydromorphological Analysis**. T
 * Valley confinement index 1 (input data preparation)
 * Valley confinement index 2 (calculation).
 ---
-## :brain: How to install the models into the **QGIS Processing Toolbox**
+## :brain: How to install the models into the **Processing Toolbox**
 Once you have downloaded and unzipped the **zip project file** ([here is an howto](https://docs.github.com/en/get-started/start-your-journey/downloading-files-from-github#downloading-a-repositorys-files)) there are two easy ways to import the models into QGIS.
 
 ### 📂 Copy the _.model3_ files in the Processing configuration folder 
