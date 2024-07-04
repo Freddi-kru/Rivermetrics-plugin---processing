@@ -3,7 +3,7 @@
 ## Hydromorphological River Metrics Measurements 
 ![RM logo con ombra](other/icons&logos/RM2.png)
 
-A set of tools for extracting river metrics. Useful for identifying the hydro-morphological characteristics and analysing the geomorphological evolution over time of a river.    
+A toolbox for the extraction of river metrics. Useful for identifying hydromorphological features and analysing the geomorphological evolution of a river over time.    
 It is developed in [Python-3 environment](www.python.org) and is compatible with QGIS 3.22 and later.
 
 The plugin is divided into two parts: the first part is an experimental plugin with a dock in the main QGIS interface, while the second part is a set of tools integrated into QGIS processing.
