@@ -62,7 +62,7 @@ As the line obtained may be excessively fragmented, a simplification is carried 
 As the resulting line may be split into several parts, the initial vertices of the lines are extracted to facilitate identification of the different parts. For use as input to the **Rivermetrics plugin** and the **Braiding-Width1 model**, these line segments must then be **manually joined together** by the user (editing operation) to obtain a **single line** of a **single part** layer.
 
 
-![scheme of main morphological units ](other/images/unita_morfologiche.jpeg)
+![scheme of main morphological units ](other/images/unita_morfologiche.jpeg)_Fig.1. Main morphological riverbed units, dervied from remote sensing image analysis and GIS processing._ 
 <!-- La figura è stata fatta con il file POA-abdac/chiascio_51-52.qgz, ho provato anche un SVG che funziona con qualche accorgimento (rettangoli bianchi a coprire i vettoriali). Sembra lento a renderizzare perciò ho ricollegato una JPG -->
 
 ### 🔄 Input/Output data
